@@ -5,7 +5,7 @@ public class hw5 {
         //新牌
         int[] poker = new int[52];
         for(int i=0;i<poker.length;i++) poker[i]=i;
-        for(int v:poker) System.out.print(v + "\t");    //show
+        for(int v:poker) {System.out.print(v + "\t");}    //show
         System.out.println();
         System.out.println("------------------------------");
         //洗牌
@@ -14,9 +14,9 @@ public class hw5 {
             int temp = poker[i];
             poker[i] = poker[key];
             poker[key] = temp;
-            }
         }
-        for (int v:poker) System.out.print(v + "\t");   //show
+
+        for(int v:poker) {System.out.print(v + "\t");}   //show
         System.out.println();
         System.out.println("------------------------------");
         //發牌
